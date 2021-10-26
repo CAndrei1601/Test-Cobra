@@ -1,0 +1,186 @@
+
+/* Am definit culorile cu care lucrez */
+:root{
+
+
+    --clr-dark:#202021;
+    --clr-gold:#e2b223;
+    --clr-white:#ffffff;
+    --clr-red:#bf4840;
+    --clr-red-strong:#da3a20;
+
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Resetare margini */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+    margin: 0; 
+}
+
+p{
+    font-size:1.5em;
+}
+
+
+.mb-2{
+    margin-bottom: 2rem;
+}
+
+/* set up la body */
+body {
+    
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+/* e mai usor sa lucrezi cu imaginile */
+img
+ {
+    max-width: 100%;
+    display: block;
+}
+
+/* easier to work with */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+nav{
+    background-color:var(--clr-dark) ;
+    height:3rem;
+}
+
+.container
+{
+    background-image:url(assets/img/background.jpg);
+    
+}
+
+.containerOne,.containerBtm {
+    padding:7rem;
+    padding-bottom: 1rem;
+   
+}
+
+.title{
+    font-family: 'Rubik', sans-serif;
+    color:var(--clr-gold);
+    font-size:13vh;
+    text-transform: uppercase;  
+}
+
+
+.subtitle , h3{
+    font-family: 'Rubik', sans-serif;
+    color:var(--clr-white);
+    letter-spacing: 4.75px;
+    font-size:6vh;
+}
+
+h3{
+
+    font-size:1.5vh;
+    margin-bottom: 2rem;
+
+}
+
+.buttonUp{
+
+    color:var(--clr-white);
+    padding:0.5rem 2.5rem;
+    background-color: var(--clr-red);
+    text-transform: uppercase;
+    margin-bottom:1em;
+    font-size: 1.5rem;
+
+
+}
+
+.check
+{
+    font-family: 'Noto Serif Display', serif;
+    color:var(--clr-white);
+    letter-spacing: 4.75px;
+    margin-bottom: 1rem;
+    font-size:1.8rem;
+}
+
+.flex{
+    display: flex;
+    gap:1rem;
+    margin-bottom: 1rem;
+}
+
+.float
+{
+    float:right;
+    z-index: 10;  
+    position: absolute;  
+    right: 0px;  
+    top: 0px;
+}
+
+.containerBtm{
+    padding-left:7rem!important;
+}
+
+.strong-font{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 1rem;
+    font-size: 5vh;
+}
+
+.strong-red{
+    color:var(--clr-red-strong);
+    font-family: 'Oswald', sans-serif;
+    font-size:6vh;
+}
+
+span{
+    font-weight: bold;
+    text-transform: uppercase; 
+    font-size:1.5rem;
+}
+
+.buttonDw{
+
+    color:var(--clr-white);
+    padding:0.5rem 4rem;
+    background-color: var(--clr-red-strong);
+    text-transform: uppercase;
+    margin:4rem 0rem;
+    font-size: 1.5rem;
+}
+
+.bottom
+{
+    position: relative;
+    float:right;
+    bottom:-140px;
+    
+
+}
+
+footer
+{
+    background-color: var(--clr-red-strong);
+    padding:1rem;
+    
+}
